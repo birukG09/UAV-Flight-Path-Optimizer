@@ -1,0 +1,15 @@
+[package]
+name = "uav_optimizer_rust"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "uav_optimizer"
+path = "src/main.rs"
+
+[dependencies]
+# Minimal dependencies for faster compilation
+
+[profile.release]
+opt-level = 3
+lto = true

@@ -1,0 +1,28 @@
+{
+  "simulation_parameters": {
+    "max_energy": 1000.0,
+    "energy_efficiency_threshold": 0.85,
+    "computation_time_limit": 2.0,
+    "success_rate_target": 0.95
+  },
+  "terrain_costs": {
+    "normal_cost": 1.0,
+    "hill_cost": 3.0,
+    "wind_cost": 2.0,
+    "obstacle_cost": 1000.0
+  },
+  "pathfinding_algorithm": "A*",
+  "alternative_algorithms": ["Dijkstra", "Greedy", "EnergyOptimal"],
+  "map_generation": {
+    "default_width": 20,
+    "default_height": 20,
+    "obstacle_probability": 0.2,
+    "hill_probability": 0.1,
+    "wind_probability": 0.1
+  },
+  "output_settings": {
+    "log_file": "output/path_log.csv",
+    "visualization_enabled": true,
+    "detailed_statistics": true
+  }
+}

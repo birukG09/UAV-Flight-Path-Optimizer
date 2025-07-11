@@ -1,0 +1,2 @@
+timestamp,algorithm,path_length,computation_time,energy_used,success
+1752248184,A*,11,0.00002357,11,true
