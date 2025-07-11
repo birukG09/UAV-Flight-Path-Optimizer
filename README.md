@@ -14,7 +14,7 @@ A multi-language simulation and optimization system for unmanned aerial vehicle 
 - AI-based decision modeling (Java)
 - Performance-critical flight logic (Rust)
 ![image alt](https://github.com/birukG09/UAV-Flight-Path-Optimizer/blob/1a5fe8a4726a51372cf93f0487de8521a5ee6187/Screenshot%202025-07-11%20191246.png)
----
+![image alt](https://github.com/birukG09/UAV-Flight-Path-Optimizer/blob/846faf3e2e1c932c352ff56752918145aaf67ae0/Screenshot%202025-07-11%20191304.png)
 
 ## 📦 Features
 
